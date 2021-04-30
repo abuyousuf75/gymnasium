@@ -1,0 +1,447 @@
+@media(min-width:1200px) and (max-width:1399px){
+    .banner-item img {
+        margin-left: 0px;
+    }
+    .banner-content {
+        margin-top: 48.4%;
+    }
+    .banner-massage {
+        margin-top: -39%;
+    }
+    .banner-massage p {
+        padding-bottom: 12px;
+    }
+    .tabs .nav-pills .nav-link {
+        padding: 10px 67px;
+    }
+    .sponser-img {
+        margin-left: 25px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199.98px){
+    .banner-content {
+        margin-top: 58.4%;
+    }
+    .banner-item img {
+       opacity: 0;
+    }
+    .banner-img{
+        padding-top: 520px;
+    }
+    .banner-massage {
+        margin-top: -45%;
+    }
+    .banner-massage p {
+        padding-bottom: 3px;
+    }
+    .sponser-img {
+        margin-left: 17px;
+    }
+    .tabs .nav-pills .nav-link {
+        padding: 10px 51px;
+    }
+    .class-iteam p {
+       
+        font-size: 14px;
+       
+    }
+}
+@media(min-width:768px) and (max-width:991.98px) {
+    header nav .container {
+        position: absolute;
+    }
+    header nav .container .logo-main {
+        top: -22px;
+    }
+    .banner-item img {
+        margin-left: 65px;
+    }
+    .banner-massage {
+        margin-top: -32%;
+    }
+    .banner-massage p {
+        padding: 0px 88px;
+       padding-bottom: 20px;
+    }
+    header .nav-new .container .logo-main {
+        transform: skew(0deg);
+        padding: 10px 21px;
+        bottom: -14px;
+    }
+    .about-text p {
+        padding: 0px 8px;
+        line-height: 22px;
+    }
+    .btm-tp i {
+        right: 10px;
+    }
+    .team-iteam {
+        padding: 0px 12px;
+      margin-top: 20px;
+    }
+    .tr{
+        visibility: visible;
+    }
+    .tl{
+        visibility: visible;
+    }
+    .team-overly{
+        opacity: 1;
+        transform: scale(0.9);
+    }
+    figcaption:after{
+        opacity: 1;
+    }
+    .team-text h5 {
+        opacity: 1;
+    }
+    .support ul li {
+        padding: 13px;
+    }
+    .support ul li {
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .tabs .nav-pills .nav-link {
+        padding: 10px 31px;
+    }
+    .sponser-img {
+        margin-left: 15px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767.98px){
+    .navbar-toggler i{
+        color: #fff;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .navbar-toggler:focus{
+        box-shadow:none ;
+    }
+    .navbar-light .navbar-toggler {
+       
+         border-color:transparent!important;
+    }
+   
+    header nav .container .logo-main {
+        padding: 4px 20px;
+        left: 0px;
+        top: -15px;
+        transform: skew(-30deg);
+      
+    }
+    header nav .container .logo-main {
+        position: inherit;
+    }
+    header .nav-new .container .logo-main {
+        transform: skew(-30deg);
+        padding: 5px 20px;
+        top: -13px;
+        bottom: 0px;
+    }
+    .nav-new {
+        background:rgba(226, 62, 56, 0.80)!important;
+    }
+    .navbar {
+        background:#e23e38;
+        position: sticky;
+        top: 0px;
+        left: 0;
+    }
+    .nav-item {
+        background:#e23e38;
+        margin: 0px -30px;
+        margin-top: -17px;
+    }
+    .banner-content {
+        margin-top: 30.4%;
+    }
+    .banner-item img {
+        margin-left: 0px;
+        opacity: 0;
+    }
+    .banner-massage {
+        margin-top: -36%;
+    }
+    .banner-massage p {
+        padding: 0px 54px;
+        margin-bottom: 40px;
+    }
+    .banner-massage h4 {
+        font-size: 25px;
+    }
+    .banner-massage h2 {
+        font-size: 57px;
+    }
+    .banner-img{
+        padding-top: 400px;
+    }
+    .banner-slck ul {
+        bottom: -7px;
+    }
+    .about-text p {
+        padding: 0px 10px;
+        line-height: 28px;
+    }
+    .heading h4 {
+        margin-top: 20px;
+    }
+    #gallery {
+        padding-top: 40px;
+    }
+    .gallery-iteam {
+        padding: 0px 28px;
+    }
+    .galery-iteam-overly:hover{
+        transform: scale(0.8);
+    }
+    .btm-tp i {
+        right: 10px;
+    }
+    .team-iteam {
+        padding: 0px 20px;
+      margin-top: 20px;
+    }
+    .tr{
+        visibility: visible;
+    }
+    .tl{
+        visibility: visible;
+    }
+    .team-overly{
+        opacity: 1;
+        transform: scale(0.9);
+    }
+    figcaption:after{
+        opacity: 1;
+    }
+    .team-text h5 {
+        opacity: 1;
+    }
+    .revew p {
+        line-height: 23px;
+    }
+    .tabs .nav-item {
+        background:none;
+        margin: 0px 4px;
+    }
+    
+    .nav-pills .nav-link {
+        padding: 10px 53px;
+        margin-top: 24px;
+    }
+    .sponser-img {
+        padding: 0px 10px;
+    }
+    @media(min-width:767px){
+        .nav-item {
+            margin: 0px -125px;
+            margin-top: -7px;
+        }
+        .team-iteam {
+            padding: 0px 15px;
+        }
+    }
+}
+@media (max-width:575.98px){
+    .navbar-toggler i{
+        color: #fff;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .navbar-toggler:focus{
+        box-shadow:none ;
+    }
+    .navbar-light .navbar-toggler {
+       
+         border-color:transparent!important;
+    }
+   
+    header nav .container .logo-main {
+        padding: 4px 20px;
+        left: 0px;
+        top: -15px;
+        transform: skew(-30deg);
+      
+    }
+    header nav .container .logo-main {
+        position: inherit;
+    }
+    header .nav-new .container .logo-main {
+        transform: skew(-30deg);
+        padding: 5px 20px;
+        top: -13px;
+        bottom: 0px;
+    }
+    .nav-new {
+        background:rgba(226, 62, 56, 0.80)!important;
+    }
+    .navbar {
+        background:#e23e38;
+        position: sticky;
+        top: 0px;
+        left: 0;
+    }
+    .nav-item {
+        background:#e23e38;
+        margin: 0px -12px;
+        margin-top: -16px;
+    }
+    .banner-content {
+        margin-top: 20.4%;
+    }
+    .banner-item img {
+        margin-left: 0px;
+        opacity: 0;
+    }
+    .banner-massage {
+        margin-top: -36%;
+    }
+    .banner-massage p {
+        padding: 0px 130px;
+        margin-bottom: 40px;
+    }
+    .banner-massage h4 {
+        font-size: 25px;
+    }
+    .banner-massage h2 {
+        font-size: 47px;
+    }
+    .banner-img{
+        padding-top: 300px;
+    }
+    .banner-slck ul {
+        bottom: -6px;
+       
+    }
+    .banner-slck ul li button {
+        width: 12px;
+        height: 12px;
+    }
+    .heading h4 {
+        margin-top: 22px;
+    }
+    .about-text p {
+        padding: 0px 0px;
+        font-weight: 300;
+        line-height: 31px;
+    }
+    #about {
+        padding-top: 40px;
+    }
+    #gallery {
+        padding-top: 10px;
+    }
+    .heading h4 {
+        font-size: 20px;
+    }
+    .btm-tp i {
+        right: 10px;
+    }
+    .team-iteam {
+        padding: 0px 30px;
+      margin-top: 20px;
+    }
+    .tr{
+        visibility: visible;
+    }
+    .tl{
+        visibility: visible;
+    }
+    .team-overly{
+        opacity: 1;
+        transform: scale(0.9);
+    }
+    figcaption:after{
+        opacity: 1;
+    }
+    .team-text h5 {
+        opacity: 1;
+    }
+    #testomonial {
+        padding-top: 30px;
+    }
+    .revew p {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0px 17px;
+       
+    }
+    .gallery-iteam {
+      
+        padding: 0px 15px;
+    }
+    .galery-iteam-overly:hover{
+        transform: scale(0.8);
+    }
+    #membership {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .member-main {
+        padding: 0px 7px;
+        padding-top: 20px;
+       
+    }
+    .support ul li {
+        padding: 12px;
+    }
+    .counter-main p {
+        padding-bottom: 10px;
+    }
+    .counter-main h3 {
+        padding-top: 14px;
+    }
+    #class {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .nav-pills .nav-link {
+        padding: 10px 29px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .tabs .nav-item {
+        background:none;
+        margin: 0px -13px;
+        margin-top: 10px;
+    }
+    .sponser-img {
+        margin-left: 10px;
+    }
+    .socail {
+        margin-bottom: 23px;
+    }
+    .copy-right p {
+        line-height: 27px;
+    }
+    @media(min-width:575px){
+        .banner-img{
+            padding-top: 350px;
+        }
+        .banner-massage p {
+            padding: 0px 55px;
+        }
+        .gallery-iteam {
+            padding: 0px 60px;
+        }
+        .galery-iteam-overly:hover{
+            transform: scale(0.7);
+        }
+        .team-iteam {
+            padding: 0px 56px;
+        }
+        .member-main {
+            padding: 0px 30px;
+            margin-top: 20px;
+        }
+        .support ul li {
+            padding: 23px;
+        }
+        .nav-pills .nav-link {
+            padding: 10px 27px;
+        }
+    }
+}

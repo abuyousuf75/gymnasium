@@ -1,0 +1,929 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*-----==========Nav Part Css Goes Bellow=======-------------*/
+header nav .container{
+    position: relative;
+}
+header nav .container .logo-main{
+    background: #323232;
+    padding: 10px 30px;
+    display: inline-block;
+    left: 0px;
+    top: -10px;
+    transform: skew(-30deg);
+    position: absolute;
+}
+
+header .nav-new .container .logo-main{
+    transform: skew(0deg);
+    padding: 10px 20px;
+    top:-8;
+    bottom:0;
+}
+
+
+.nav-new{
+    width: 100%!important;
+    position: fixed!important;
+    left: 0!important;
+    top:0!important;
+    z-index: 99999!important;
+    background:#444444!important;
+    transition: top .5s ease;
+    height: 55px!important;
+}
+
+.navbar{
+    background: rgba(53, 53, 53, 0.25);
+    position: absolute;
+    top:30px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+   
+}
+
+.navbar-nav li.nav-item.active {
+    background:#fff;
+  
+    
+}
+.navbar-nav li.nav-item.active a{
+    color: #353535!important;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    padding-left: 10px;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color:#f1f1f1;
+    text-align: center;
+    line-height: 40px;
+    transition: all linear .4s;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+   position: relative;
+   
+}
+.navbar-light .navbar-nav .nav-link.active::after{
+    position: absolute;
+    content: "";
+    left: 0px;
+    bottom:0px;
+    width: 0;
+    height: 3px;
+    background:#e23e38;
+    opacity: 0;
+    transition: all linear .4s;
+}
+.navbar-light .navbar-nav .nav-link.active:hover::after{
+    opacity: 1;
+    width: 50%;
+    
+}
+.navbar-light .navbar-nav .nav-link.active:hover{
+    color:#222222;
+    background:#fff ;
+   text-align: center;
+   
+}
+
+
+
+/*-----==========Banner Part Css Goes Bellow=======-------------*/
+.banner-img{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center center!important;
+    padding-top: 500px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.banner-overly{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.40);
+}
+
+.banner-content {
+    margin-top: 40.4%;
+
+}
+.banner-massage{
+   margin-top: -34%;
+}
+.banner-massage h4{
+    color:#fff;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+}
+.banner-massage h2{
+    color:#e23e38;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 60px;
+    padding-bottom: 4px;
+}
+.banner-massage p {
+    padding: 0px 63px;
+    color: #dddddd;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    padding-bottom: 23px;
+}
+.banner-massage a{
+    padding: 10px 20px;
+    background: #e23e38;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    color:#fff;
+    border: 2px solid #e23e38;
+    margin-left: 15px;
+    transition: all linear 0.4s;
+}
+.banner-massage a:hover{
+    background: none;
+   
+}
+.bng2:hover{
+    border-color: #ddd!important;
+}
+
+.bgn{
+    background: none!important;
+    border: 2px solid #ddd!important;
+}
+.bgn:hover{
+    background: #e23e38!important;
+    border-color:#e23e38!important;
+}
+.banner-item img {
+    margin-left: 39px;
+}
+
+
+.banner-slck ul{
+    position: absolute;
+    left:50%;
+    bottom:14px;
+    transform: translateX(-50%);
+   
+}
+.banner-slck ul li {
+    display: inline-block;
+}
+.banner-slck ul li button{
+    width:18px;
+    height: 18px;
+    margin: 0 6px;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 50%;
+    background: transparent;
+   border:2px solid #ddd;
+   color:transparent;
+   
+}
+
+.banner-slck  ul li.slick-active button {
+    background-color: #e23e38;
+    border-color: #e23e38;
+}
+
+
+
+/*-----==========About Part Css Goes Bellow=======-------------*/
+#about{
+    padding-top: 60px;
+  
+}
+.about-img{
+    position: relative;
+}
+.about-overly{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.50);
+}
+.about-overly  i{
+    background:#e23e38;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius:50%;
+    text-align: center;
+    color:#1a181d;
+    font-size: 20px;
+}
+
+.heading h4{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 22px;
+    color:#222222;
+}
+.heading img{
+    margin-top: -20px;
+}
+
+.about-text p {
+    padding: 0px 49px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(68, 68, 68);
+    line-height: 24px;
+}
+
+/*-----==========Gallery Part Css Goes Bellow=======-------------*/
+
+#gallery{
+    padding-top: 60px;
+   
+}
+
+#gallery .gallery-img{
+   background: url(../images/gal-bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+  
+}
+#gallery .gallery-img .galery-overly{
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.80);
+    padding-bottom: 20px;
+}
+
+.gallery-iteam{
+   margin-top: 20px;
+    position: relative;
+}
+.galery-iteam-overly{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(226, 62, 56, 0.6);
+    border: 5px solid rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: all linear 0.4s;
+}
+.galery-iteam-overly:hover{
+    opacity: 1;
+    transform: scale(0.9);
+}
+.gal-icon i{
+    color:#fff;
+    background:transparent;
+    font-size: 20px;
+}
+
+
+/*-----==========Team Part Css Goes Bellow=======-------------*/
+
+#team{
+    padding-top: 60px;
+   
+}
+
+.team-img{
+    position: relative;
+}
+.team-img:hover .team-overly{
+    opacity: 1;
+    transform: scale(0.9);
+}
+.team-overly{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(226, 62, 56, 0.6);
+    border: 5px solid rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: all linear 0.4s;
+}
+.team-btn{
+    position: relative;
+}
+.tl{
+    position: absolute;
+    left: 0;
+    bottom:0px;
+    background: #e23e38;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    visibility: hidden;
+}
+.tr{
+    position: absolute;
+    right: 0;
+    bottom:0px;
+    background: #e23e38;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    visibility: hidden;
+}
+.team-icon{
+    flex-direction: column-reverse;
+}
+.team-icon {
+    margin-top: 50%;
+    flex-direction: column-reverse;
+    transform:translateY(-50%);
+}
+
+.team-icon i {
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    border: 1px solid #ddd;
+    color: #fff;
+    margin-right: 10px;
+    transition: all linear 0.4s;
+}
+.team-icon i:hover{
+    color: #1da0f2;
+    background: #fff;
+    border-color: #fff;
+}
+
+figcaption h3{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    color:#222222;
+    padding-top: 20px;
+}
+figcaption p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color:#222222;
+   
+}
+
+figcaption{
+    position: relative;
+}
+.team-iteam:hover figcaption:after{
+    opacity: 1;
+}
+ figcaption:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+   border:1px solid #ddd;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: all linear 0.4s;
+}
+
+.team-text h5{
+    padding: 0px 14px;
+    opacity: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#444444;
+    line-height: 24px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    transition: all linear 0.4s;
+}
+.team-iteam:hover figcaption h5{
+    opacity: 1;
+}
+.team-iteam{
+    padding: 0px 10px;
+    padding-top: 30px;
+}
+
+
+
+/*-----==========Testomonial Part Css Goes Bellow=======-------------*/
+
+#testomonial{
+    padding-top: 60px;
+   
+}
+
+.testo-bg{
+    background: url(../images/testo-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.testo-overly{
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.80);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.testo-text h4{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    color:#fff;
+}
+.testo-text h5{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#fff;
+}
+.testo-text i{
+    color: #e23e38;
+    font-size: 16px;
+}
+.testo-main{
+    display: flex;
+    margin-left: 20px;
+}
+
+.testo-text{
+    margin-left: 20px;
+}
+
+.revew p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color:#dddddd;
+    line-height: 18px;
+    padding:0px 20px;
+    padding-top: 5px;
+}
+
+
+.testo-slick  ul{
+    position: absolute;
+    left:50%;
+    bottom:0px;
+    transform: translateX(-50%);
+   
+}
+.testo-slick  ul li {
+    display: inline-block;
+}
+.testo-slick  ul li button{
+    width:18px;
+    height: 18px;
+    margin: 0 6px;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 50%;
+    background: transparent;
+   border:2px solid #ddd;
+   color:transparent;
+   
+}
+
+.testo-slick  ul li.slick-active button {
+    background-color: #e23e38;
+    border-color: #e23e38;
+}
+
+.testo-slick {
+    padding-bottom: 45px;
+}
+
+/*-----==========Membership Part Css Goes Bellow=======-------------*/
+
+#membership{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.member-main{
+    padding-top: 20px;
+}
+
+.member-bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.member-overly{
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.80);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.member-head{
+    background: #ddd;
+    padding: 10px;
+    transition: all linear 0.4s;
+}
+.member-head h4{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    color:#222222;
+   margin-top: 7px;
+   transition: all linear 0.4s;
+}
+
+.member-overly h3{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 35px;
+    color:#fff;
+    padding: 10px;
+}
+
+.member-overly span{
+    font-size: 20px;
+}
+.support{
+    background: #f1f1f1;
+}
+
+.support ul li {
+    padding: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#444444;
+}
+
+.join-btn{
+    background: #ddd;
+    padding: 8px;
+    transition: all linear 0.4s;
+}
+.join-btn:hover{
+    background: #444444!important;
+}
+.join-btn a{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    color:#222222;
+    transition: all linear 0.4s;
+}
+
+.member-main:hover .member-head{
+    background: #e23e38;
+  
+}
+.member-main:hover .member-head h4{
+    color: #fff;
+}
+
+.member-main:hover .join-btn {
+    background: #e23e38;
+}
+
+.member-main:hover .join-btn a{
+    color: #fff;
+
+}
+
+/*-----==========Counter Part Css Goes Bellow=======-------------*/
+
+#counter-up{
+    background: url(../images/counter-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.counter-overly{
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.80);
+}
+
+.counter-main h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color:#fff;
+    padding-top: 36px;
+}
+.counter-main p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#fff;
+   padding-bottom: 26px;
+}
+
+
+/*-----==========Class  Part Css Goes Bellow=======-------------*/
+#class{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.nav-pills .nav-link {
+    background: #ddd;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#222222;
+    border: 0;
+    border-radius: 0px;
+    padding: 10px 70px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #e23e38;
+}
+.mb{
+    margin-bottom: 10px!important;
+}
+
+.class-iteam{
+    background: #ddd;
+    padding-top: 20px;
+    transition: all linear 0.4s;
+}
+.class-iteam:hover{
+    background: #e23e38;
+    transform: scale(1.1);
+}
+.class-iteam h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#444444;
+    padding-bottom: 10px;
+    transition: all linear 0.4s;
+}
+.class-iteam:hover.class-iteam h4{
+    color: #fff;
+}
+
+.class-iteam p{
+    padding-bottom: 20px;
+    transition: all linear 0.4s;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#444444;
+}
+
+.class-iteam:hover.class-iteam p{
+    color:#fff;
+}
+
+/*-----==========Sponser Part Css Goes Bellow=======-------------*/
+#sponser .sponser-icon{
+    position: relative;
+}
+.sponser-icon .left{
+    top:50%;
+    left: 0;
+    font-size: 20px;
+    position: absolute;
+    transform: translateY(-50%);
+    z-index:1;
+}
+.sponser-icon .left:hover{
+    color: #e23e38;
+}
+.sponser-icon .right{
+    top:50%;
+    right: 0;
+    font-size: 20px;
+    position: absolute;
+    transform: translateY(-50%);
+    z-index:1;
+}
+.sponser-icon .right:hover{
+    color: #e23e38;
+}
+
+.sponser-slick{
+    padding: 0px 60px;
+}
+
+
+/*-----==========Footer Part Css Goes Bellow=======-------------*/
+
+
+#footer{
+    padding-top: 60px;
+}
+
+.footer-bg{
+    background: url(../images/footerbg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.footer-overly{
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.80);
+}
+
+.footer-logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bdr-btm{
+    border-bottom: 1px solid #ddd;
+}
+.footer-iteam h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#fff;
+    text-transform: uppercase;
+    padding-top: 22px;
+    padding-bottom: 22px;
+   
+}
+
+.footer-iteam ul li{
+  
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+   font-size: 13px;
+   color:#ddd;
+   line-height: 24px;
+   margin-left: -30px;
+}
+.footer-iteam ul li span{
+    margin-left: 23px;
+}
+.twitter{
+    display: flex;
+    margin-bottom: 25px;
+}
+.icon i{
+    color:#1da1f2;
+    font-size: 20px;
+}
+.Ttext p{
+    padding: 0px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+   font-size: 13px;
+   color:#ddd;
+   line-height: 20px;
+}
+.Ttext h5 {
+    padding: 0px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ddd;
+    line-height: 0px;
+}
+.flickr-img img{
+    margin-bottom: 10px;
+ }
+ .contact-main {
+    display: flex;
+}
+.contact-main p{
+    padding: 0px 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+   font-size: 13px;
+   color:#ddd;
+}
+.contact-main i{
+    color:#e23e38;
+}
+.socail h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#fff;
+    text-transform: uppercase;
+    padding-top: 22px;
+    padding-bottom: 15px;
+}
+.socail {
+	margin-bottom: 19px;
+}
+.social-icon i{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border:1px solid #ddd;
+    font-size: 20px;
+    color: #fff;
+    transition: all linear 0.4s;
+}
+.social-icon i:hover{
+    background: #e23e38;
+    border:1px solid #e23e38;
+}
+.bdr-tp{
+    border-top: 1px solid#ddd;
+}
+.copy-right p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+   font-size: 16px;
+   color:#ddd;
+   line-height: 60px;
+   
+}
+.copy-right span{
+    color:#e23e38;
+}
+
+.btm-tp i{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    background: #e23e38;
+    color:#fff;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+}
+
+
+
+
+
+
+
+
+
+
+/*-----==========Nav Part Css Goes Bellow=======-------------*/
+
+/*-----==========Nav Part Css Goes Bellow=======-------------*/
+
+/*-----==========Nav Part Css Goes Bellow=======-------------*/
